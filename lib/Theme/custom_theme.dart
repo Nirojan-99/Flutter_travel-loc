@@ -16,16 +16,15 @@ ThemeData customTheme() {
       ),
       colorScheme: ColorScheme.fromSwatch(
           primarySwatch: buildMaterialColor(
-        Color.fromARGB(255, 255, 255, 255),
+        Color.fromRGBO(243, 247, 246, 1),
       )).copyWith(
         secondary: buildMaterialColor(
           const Color(0xffEEB51D),
         ),
       ),
-      splashColor: Color.fromARGB(255, 255, 255, 255),
+      splashColor: Color.fromRGBO(243, 247, 246, 1),
       brightness: Brightness.light,
       textTheme: const TextTheme(),
       scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255),
-      iconTheme: const IconThemeData(color: Colors.white)
-      );
+      iconTheme: const IconThemeData(color: Colors.white));
 }

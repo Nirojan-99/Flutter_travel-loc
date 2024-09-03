@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: customTheme(),
-      title: 'Travel Loc',
+      title: 'Ceylon Voyages',
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
       routes: {

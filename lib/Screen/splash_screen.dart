@@ -51,16 +51,30 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    const Text(
+                      "Ceylon Voyages",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          fontFamily: "DeliusSwashCaps-Regular",
+                          fontSize: 40,
+                          color: Color.fromRGBO(14, 91, 101, 1)),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
                     Image.asset(
-                      "images/splash.png",
+                      "images/splash1.png",
+                    ),
+                    const SizedBox(
+                      height: 5,
                     ),
                     const Text(
                       "Explore Exciting Places",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontFamily: "DeliusSwashCaps-Regular",
-                          fontSize: 32,
-                          color: Colors.red),
+                          fontFamily: "RedHatDisplay",
+                          fontSize: 24,
+                          color: Color.fromRGBO(14, 91, 101, 1)),
                     )
                   ],
                 ),

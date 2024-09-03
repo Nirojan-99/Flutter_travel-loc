@@ -119,7 +119,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   textAlign: TextAlign.start,
                   style: TextStyle(
                       fontSize: 24,
-                      color: Colors.red,
+                      color: Color.fromRGBO(14, 91, 101, 1),
                       fontFamily: "RedHatDisplay",
                       fontWeight: FontWeight.bold),
                 ),
@@ -145,7 +145,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   "Find your perfect destination",
                   style: TextStyle(
                       fontSize: 20,
-                      color: Colors.red,
+                      color: Color.fromRGBO(14, 91, 101, 1),
                       fontFamily: "RedHatDisplay",
                       fontWeight: FontWeight.bold),
                 ),
@@ -225,7 +225,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 Row(
                                   children: [
                                     Image.asset(
-                                      "images/loc.png",
+                                      "images/loc1.png",
                                     ),
                                     const SizedBox(
                                       width: 5,
